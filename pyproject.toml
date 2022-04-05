@@ -8,6 +8,8 @@ authors = ["Your Name <you@example.com>"]
 python = "^3.8"
 requests = "^2.27.1"
 unittest = "^0.0"
+black = "^22.3.0"
+coverage = "^6.3.2"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"

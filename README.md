@@ -24,4 +24,15 @@ Link: https://github.com/python-poetry/poetry/issues/108
 
 
 
+# Format code tools
+black --check --diff --color .
 
+black {source_file_or_directory}
+
+Link: https://github.com/psf/black
+
+# Unitest
+
+coverage run -m unittest discover --pattern "test_*.py"
+
+coverage report -m
