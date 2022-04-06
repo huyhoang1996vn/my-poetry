@@ -1,3 +1,5 @@
+import time
+
 class User:
 
     def __init__(self):
@@ -7,6 +9,7 @@ class User:
         self.profile['active'] = True
 
     def is_active(self):
+        time.sleep(2) # long running process
         return self.profile['active']
 
     def get_level(self):
